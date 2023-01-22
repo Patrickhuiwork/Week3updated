@@ -1,5 +1,5 @@
 import React from 'react'
-import Hero from '../components/Hero'
+import Hero from '../components/hero'
 import Portfolio from '../components/about'
 
 const about = () => {
