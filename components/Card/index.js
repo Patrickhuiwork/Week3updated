@@ -7,8 +7,8 @@ export default function Card({
     return(
         <div style={{backgroundColor: colour, fontSize: font}}>
             {
-                colour === "red" ? <img src={'icon/person.png'} width="50"/> :
-                colour === "blue" ? <img src={'icon/personThree.png'} width="50"/> :
+                colour === "#001242" ? <img src={'icon/person.png'} width="50"/> :
+                colour === "#FF8552" ? <img src={'icon/personThree.png'} width="50"/> :
                                     <img src={image} width="50"/>
 
             }

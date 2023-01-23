@@ -6,8 +6,8 @@ import data from '../data/education.json'
 import { useState } from 'react'
 import Card from '../components/Card'
 import Link from 'next/link'
-import Hero from '../components/hero';;
-import Slider from '../components/slider';
+import Hero from '../components/Hero';;
+import Slider from '../components/Slider';
 import { SliderData } from '../components/SliderData';
 
 const inter = Inter({ subsets: ['latin'] })
